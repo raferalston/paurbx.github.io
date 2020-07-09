@@ -1,0 +1,45 @@
+.productpage-wrapper {
+    &__photo {
+        background-image: url('../img/product.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        // background-position: ;
+        height: 680px;
+        width: 686px;
+        margin-left: 656px;
+    }
+    &__flowerOne {
+        display: flex;
+        position: absolute;
+        background-image: url('../img/flower_3.png');
+        background-size: contain;
+        height: 230px;
+        width: 230px;
+        margin-top: 406px;
+        margin-left: 12px;
+        z-index: 2;
+    }
+    
+    &-herobox {
+        background-color: $product;
+        // position: relative;
+        height: 680px;
+        width: 656px;
+        margin-top: -680px;
+        z-index: 3;
+        &__header {
+            font-family: $headers;
+            // position: relative;
+            font-size: 45px;
+            padding-top: 230px;
+            padding-left: 141px;
+            z-index: 3;
+        }
+        &__paragraph {
+            font-family: $texts;
+            font-size: 25px;
+            padding-top: 13px;
+            padding-left: 141px;
+        }
+    }
+}

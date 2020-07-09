@@ -1,0 +1,50 @@
+.aboutpage-wrapper {
+    &__photo {
+        background-image: url('../img/about.png');
+        background-repeat: no-repeat;
+        height: 680px;
+        width: 658px;
+        margin-top: -680px;
+    }
+    &__flowerOne {
+        display: flex;
+        position: absolute;
+        background-image: url('../img/flower_2.png');
+        background-size: contain;
+        height: 222px;
+        width: 222px;
+        margin-top: 48px;
+        margin-left: 951px;
+    }
+    &__flowerTwo {
+        display: flex;
+        position: absolute;
+        background-image: url('../img/flower_2.png');
+        background-size: contain;
+        height: 84px;
+        width: 84px;
+        margin-top: 512px;
+        margin-left: 549px;
+        
+    }
+    &-herobox {
+        background-color: $about;
+        height: 680px;
+        width: 676px;
+        margin-left: 656px; 
+        &__header {
+            font-family: $headers;
+            color: $forText;
+            font-size: 45px;
+            padding-left: 52px;
+            padding-top: 188px;
+        }
+        &__paragraph {
+            font-size: 25px;
+            font-family: $forText;
+            text-align: center;
+            margin-left: -130px;
+            margin-top: 13px;
+        }
+    }
+}
