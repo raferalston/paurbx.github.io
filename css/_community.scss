@@ -18,7 +18,7 @@
                 background-position: center;
                 height: 35px;
                 width: 35px;
-                margin-top: -35px;
+                margin-top: -35px; // Не применяй отрицательные значения для отступов
                 margin-left: 699px;
                 &:hover {
                     cursor: pointer;
@@ -33,7 +33,7 @@
                 background-position: center;
                 height: 35px;
                 width: 35px;
-                margin-top: -35px;
+                margin-top: -35px; // Не применяй отрицательные значения для отступов
                 margin-left: 751px;
                 &:hover {
                     cursor: pointer;
@@ -47,7 +47,7 @@
                 background-position: center;
                 height: 35px;
                 width: 35px;
-                margin-top: -35px;
+                margin-top: -35px; // Не применяй отрицательные значения для отступов
                 margin-left: 804px;
                 &:hover {
                     cursor: pointer;

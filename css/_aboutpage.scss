@@ -4,7 +4,7 @@
         background-repeat: no-repeat;
         height: 680px;
         width: 658px;
-        margin-top: -680px;
+        margin-top: -680px; // Не применяй отрицательные значения для отступов
     }
     &__flowerOne {
         display: flex;
@@ -43,7 +43,7 @@
             font-size: 25px;
             font-family: $forText;
             text-align: center;
-            margin-left: -130px;
+            margin-left: -130px; // Не применяй отрицательные значения для отступов
             margin-top: 13px;
         }
     }
