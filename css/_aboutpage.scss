@@ -1,11 +1,7 @@
 .aboutpage-wrapper {
-    &__photo {
-        background-image: url('../img/about.png');
-        background-repeat: no-repeat;
-        height: 680px;
-        width: 658px;
-        margin-top: -680px;
-    }
+    display: flex;
+    z-index: 1000;
+    position: relative;
     &__flowerOne {
         display: flex;
         position: absolute;
@@ -13,8 +9,9 @@
         background-size: contain;
         height: 222px;
         width: 222px;
-        margin-top: 48px;
-        margin-left: 951px;
+        z-index: 1;
+        top: 25%;
+        left: 45%;
     }
     &__flowerTwo {
         display: flex;
@@ -23,28 +20,41 @@
         background-size: contain;
         height: 84px;
         width: 84px;
-        margin-top: 512px;
-        margin-left: 549px;
-        
+        z-index: 1;
+        top: 75%;
+        left: 15%;
     }
+
+    &__photo {
+        background-image: url('../img/about.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        flex-basis: 50%;
+    }
+    
     &-herobox {
         background-color: $about;
         height: 680px;
-        width: 676px;
-        margin-left: 656px; 
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
         &__header {
             font-family: $headers;
             color: $forText;
             font-size: 45px;
-            padding-left: 52px;
-            padding-top: 188px;
+            position: relative;
+            z-index: 1000;
         }
         &__paragraph {
             font-size: 25px;
             font-family: $forText;
             text-align: center;
-            margin-left: -130px;
-            margin-top: 13px;
+            position: relative;
+            z-index: 1000;
         }
     }
 }
