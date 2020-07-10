@@ -2,23 +2,26 @@
 @import './text_setup';
 @import './breakpoint';
 
+@import './mainpage';
 @import './community';
-@import './minepage';
 @import './aboutpage';
 @import './productpage';
 
-@import './tabletminepage';
-@import './tabletaboutpage';
-@import './tabletproductpage';
-@import './tabletcommunity';
+// @import './tabletminepage';
+// @import './tabletaboutpage';
+// @import './tabletproductpage';
+// @import './tabletcommunity';
 
-    body {
-        margin: 0;
-        color: $forText;
-        overflow-x: hidden;
-    }
+body {
+    margin: 0;
+    color: $forText;
+    overflow-x: hidden;
+}
 
-   
+.mainpage-wrapper {
+    max-width: 1366px;
+    margin: auto;
+}
 
 
 
