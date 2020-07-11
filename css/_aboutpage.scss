@@ -10,8 +10,8 @@
         height: 222px;
         width: 222px;
         z-index: 1;
-        top: 25%;
-        left: 45%;
+        top: 15%;
+        left: 5%;
     }
     &__flowerTwo {
         display: flex;
@@ -22,7 +22,7 @@
         width: 84px;
         z-index: 1;
         top: 75%;
-        left: 15%;
+        left: 55%;
     }
 
     &__photo {
@@ -55,6 +55,46 @@
             text-align: center;
             position: relative;
             z-index: 1000;
+        }
+    }
+}
+
+@include media('<=tablet') {
+    .aboutpage {
+        &-wrapper {
+            &-herobox {
+                &__paragraph {
+                    font-size: 21px;
+                }
+            }
+        
+        }
+    }
+}
+@include media('<=phone') {
+    .aboutpage {
+        &-wrapper {
+            &__flowerOne {
+                height: 100px;
+                width: 100px;
+                top: 16%;
+            }
+            &__flowerTwo {
+                height: 50px;
+                width: 50px;
+                
+            }
+            &-herobox {
+                height: 321px;
+                width: 181px;
+                &__header {
+                    font-size: 21px;
+                }
+                &__paragraph {
+                    font-size: 9px;
+                }
+            }
+        
         }
     }
 }
